@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chat>
+	
+	<question id="">
+		<title1 text=""/>
+		<title2 text=""/>
+		<answer1 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	
+	<question id="1">
+		<title1 text="*Vous vous réveillez, lorsque soudain vore téléphone sonne"/>
+		<title2 text=".*"/>
+		<answer1 text="Répondre à l'appel">
+			<wait time="5"/>
+			<next id="2"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="Ignorer l'appel">
+			<wait time="7"/>
+			<next id="2"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time=""/>
+			<next id=""/>
+			<event id=""/>
+		</answer3>
+	</question>
+
+
+<question id="2">
+		<title1 text="Le téléphone sonne à nouveau cependant cette fois la messagerie se déclenche, une voix sombre et inquiétante s'entend dans tout la maison: Tu ne mérites pas la vie, je vais te tuer de mes propres mains "/>
+		<title2 text="!"/>
+		<answer1 text="Vous avez peur, durant 5 mois cet appel vous trouble de plus, la nourriture manque.">
+			<wait time="5"/>
+			<next id="3"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="Vous vous dites que c'est une blague cependant lorque vous essayez de sortir votre téléphone sonne et vous entendes une voix sombre dailleurs la même voix que dans le téléphone. Mieux vaut rester chez soi après tout ">
+			<wait time="5"/>
+			<next id="3"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time=""/>
+			<next id=""/>
+			<event id=""/>
+		</answer3>
+	</question>
+	
+	<question id="3">
+		<title1 text="Un jour l'eau ne vous est plus accessible et la seule option qui s'offre à vous c'est sortir et aller chercher à boire et à manger "/>
+		<title2 text="."/>
+		<answer1 text="Vous faites donc votre sortie">
+			<wait time="5"/>
+			<next id="4"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="persister à ne pas sortir jsqu'au moment inévitable mais cette fois pas de voix pas de téléphone, actuellement vous êtes même obligé de sortir pour ne pas mourrir de faim">
+			<wait time="5"/>
+			<next id="4"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time=""/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	
+	
+	<question id="4">
+		<title1 text="Durant votre escapade, vous vous apercevez que la ville est déserte, dans la nuit noire. Que faire ?????"/>
+		<title2 text=""/>
+		<answer1 text="Après mure reflexion vous choisissez le vol car de  toute manière vous êts seul .">
+			<wait time="5"/>
+			<next id="5"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="Vous n'osez pas voler mais à qui payer ?">
+			<wait time="5"/>
+			<next id="5"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time=""/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="5">
+		<title1 text="En rentrant dans le magasin, les ressources primaires sont rares "/>
+		<title2 text=""/>
+		<answer1 text="Prendre les quelques conserves que vous trouvez">
+			<wait time="5"/>
+			<next id="6"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="Prendre des croquettes de chien">
+			<wait time="5"/>
+			<next id="7"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time=""/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="6">
+		<title1 text="Mais desormais que faire ?? vous êtes seul au monde a quoi bon rester dans votre misérable appartement ?"/>
+		<title2 text=""/>
+		<answer1 text="En vous promenant vous décidez de vous installer dans le plus luxueux, le plus agréable et le plus sur de toute la ville">
+			<wait time="5"/>
+			<next id="8"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="La tentation est trop grande pour ne pas choisir le plus bel appartement">
+			<wait time="5"/>
+			<next id="7"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time=""/>
+			<next id=""/>
+			<event id=""/>
+		</answer3>
+	</question>
+	
+	<question id="7">
+		<title1 text="En y entrant vous découvrez un bâtiment somptueux mais abandonné"/>
+		<title2 text=""/>
+		<answer1 text="Vous décidez de continuer ">
+			<wait time="5"/>
+			<next id="8"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="vous voyez des débris et quelque chose brille qu'est que ça peut être ?">
+			<wait time="5"/>
+			<next id="8"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time=""/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="8">
+		<title1 text="En vous approchant des escaliers une voix se fait entendre des débris, une voix féminine "/>
+		<title2 text=""/>
+		<answer1 text="jeter une pierre pour voir si uneréaction se produit">
+			<wait time="5"/>
+			<next id="9"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="se ruer dans les débris pour aider cette personne mais en vous ruant vous vous apercevez que vous l'avez écrasé">
+			<wait time="5"/>
+			<next id="10"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time=""/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="9">
+		<title1 text="Un gémissement glaçant, vous transperce"/>
+		<title2 text=""/>
+		<answer1 text="Vous essayer à main nue d'enlever les débris  ">
+			<wait time="5"/>
+			<next id="11"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="vous prenez le premier outil qui vient et enlevez le maximum de pierre">
+			<wait time="5"/>
+			<next id="10"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="10">
+		<title1 text="Vous avez réussi la femme est libéré mais elle est choqué et bléssé légéremment"/>
+		<title2 text=""/>
+		<answer1 text="Pour éviter toute infection vous la couchez dans la chambre et la soignez ">
+			<wait time="5"/>
+			<next id="11"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="Elle parait choqué et triste vous décidez d'allez se reposer dans une des chambres de l'hotel">
+			<wait time="5"/>
+			<next id="11"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="11">
+		<title1 text="Quelques minutes plus tard, cette femme n'ose toujours pas parler mais elle essaie d'aller dans la salle de bain mais s'évanouit "/>
+		<title2 text=""/>
+		<answer1 text="vous êtes dégouté et la soignez de nouveau">
+			<wait time="5"/>
+			<next id="12"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="vous attendez qu'elle reprenne ses esprits seule ">
+			<wait time="5"/>
+			<next id="12"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="12">
+		<title1 text="Après s'être réveillé elle tente de communiquer avec vous mais elle parait toujours fatigué"/>
+		<title2 text=""/>
+		<answer1 text="Vous faites semblant de comprendre et la laisser se reposer de nouveau">
+			<wait time="5"/>
+			<next id="13"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="vous essayez aussi de comuniquer avec elle mais elle ne comprends pas">
+			<wait time="5"/>
+			<next id="13"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="13">
+		<title1 text="Elle semble être si fatigué que sa mémoire est affecté"/>
+		<title2 text=""/>
+		<answer1 text="Apres un certains temps, elle semble pouvoir parler">
+			<wait time="5"/>
+			<next id="14"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="14">
+		<title1 text="Après avoir parler avec elle vous vous apercevez que sa mémoire a été partiellement oublié"/>
+		<title2 text=""/>
+		<answer1 text="Vous essayez de comprendre pourquoi elle était dans les décombres ">
+			<wait time="5"/>
+			<next id="15"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="Vous essayez de savoir si elle sait pourquoi la population a disparue">
+			<wait time="5"/>
+			<next id="15"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="15">
+		<title1 text="**Shp̣hāph** Une tempête provenant de l'Ouest, elle a tout détruit mais je n'avait nulle part où aller donc je suis resté je suppose que la population a fuit mais je n'arrive pas a me souvenir de plus que cela en revanche j'ai une forte douleur a la tête"/>
+		<title2 text=""/>
+		<answer1 text="Mais quel jour sommes nous ?">
+			<wait time="5"/>
+			<next id="16"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="Où sommes nous ?">
+			<wait time="5"/>
+			<next id="16"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="16">
+		<title1 text="Ne le sais tu pas nous sommes à Yadanté, le 16 février 2215"/>
+		<title2 text=""/>
+		<answer1 text="Es tu sûre ?">
+			<wait time="5"/>
+			<next id="17"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="Je ne me rappelle de rien">
+			<wait time="5"/>
+			<next id="17"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="17">
+		<title1 text="Et toi d'où viens tu ? Qui es tu ?"/>
+		<title2 text=""/>
+		<answer1 text="Mon nom est Phay mais je ne sais rien de plus ">
+			<wait time="5"/>
+			<next id="18"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="Je viens de New York ...">
+			<wait time="5"/>
+			<next id="18"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="18">
+		<title1 text="Après avoir réfléchi à votre passé vous vos rendez compte quee votre mémoire est ammoindri "/>
+		<title2 text=""/>
+		<answer1 text="Aller à votre maison en quête de votre passé">
+			<wait time="5"/>
+			<next id="19"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="Aller vous promener dans la ville si possible proche de votre maison">
+			<wait time="5"/>
+			<next id="19"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="19">
+		<title1 text="En vous approchant, vous sentez une fraicheur inconnue,  "/>
+		<title2 text=""/>
+		<answer1 text="vous vous approchez du milieu l'emanant">
+			<wait time="5"/>
+			<next id="20"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="Une coincidence vous interpella, cette sensation provenait de votre appartement">
+			<wait time="5"/>
+			<next id="20"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="20">
+		<title1 text="Une fois entré, vous trouvez une capsule mystérieuse"/>
+		<title2 text=""/>
+		<answer1 text="Serait-ce une capsule de cryogénisaion ?">
+			<wait time="5"/>
+			<next id="21"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="Serait-ce un objet extraterrestre">
+			<wait time="5"/>
+			<next id="21"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	<question id="21">
+		<title1 text="Shphaph entre dans la capsule, soudain la porte se referma et votre amie reste bloqué"/>
+		<title2 text=""/>
+		<answer1 text="une voix se fit entendre c'etait une voix robotique vous indiquant la date de cryogensation">
+			<wait time="5"/>
+			<next id="22"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="vous attendez que SHPHAPH puisse sotir">
+			<wait time="5"/>
+			<next id="22"/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	
+	<question id="22">
+		<title1 text="Impossible Shphaph est bloquée dans la capsule "/>
+		<title2 text=""/>
+		<answer1 text="Le seul problème, étant donné les dégats massifs de la tempête, toutes centrales nucléaires comme hydroliques ont été détruites donc l'électricité manque et la capsule est sur le point de s'éteindre">
+			<wait time="5"/>
+			<next id="23"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	
+	<question id="23">
+		<title1 text="Que faire ? Shphaph va t-elle survivre ?"/>
+		<title2 text=""/>
+		<answer1 text="vous voyez votre amie suffoquer elle décéde devant vous">
+			<wait time="5"/>
+			<next id="24"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	
+	<question id="24">
+		<title1 text="C'est ainsi que Phay décida de se suicider par la peur de la solitude "/>
+		<title2 text=""/>
+		<answer1 text="Mais une question se maintient Que s'est-il passé ?">
+			<wait time="5"/>
+			<next id="25"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	
+	<question id="25">
+		<title1 text="C'est ici que j'intervient pour  vous racnter l'histoire qui ménera la fin de la planète Terre"/>
+		<title2 text=""/>
+		<answer1 text="La plupart de l'humanité a été décimé en raison de la tempête qui n'était pas causé par des phénomènes naturels ">
+			<wait time="5"/>
+			<next id="26"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	
+	<question id="26">
+		<title1 text="Cette tempête d'une extrême puissance a été engendré par les aliens qui ont aussi été décimé par la tempête "/>
+		<title2 text=""/>
+		<answer1 text="La seule raison pour laquelle les héros de cette aventure palpittante ont survécu est le fait que de par les capsules de cryogénisation leurs été procurés une sécurité infaillible">
+			<wait time="5"/>
+			<next id="27"/>
+			<event id="0"/>
+		</answer1>
+		<answer2 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+	
+	
+	<question id="27">
+		<title1 text="Maintenant, la Terre est laissé à l'abandon"/>
+		<title2 text=""/>
+		<answer1 text="l'humanité ainsi que la vie extraterestre ont été anéantis. (FIN)">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="1"/>
+		</answer1>
+		<answer2 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer2>
+		<answer3 text="">
+			<wait time="5"/>
+			<next id=""/>
+			<event id="0"/>
+		</answer3>
+	</question>
+</chat>
+	
+	

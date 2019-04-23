@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chat>
+	<question id="0">
+		<title1 text="**Martin** : Comment ça va "/>
+		<title2 text=" ?"/>
+		<answer1 text="Bien">
+			<wait time="10"/>
+			<next id="1"/>
+		</answer1>
+		<answer2 text="Moyen">
+			<wait time="25"/>
+			<next id="2"/>
+		</answer2>
+		<answer3 text="Pas du tout">
+			<wait time="6"/>
+			<next id="3"/>
+		</answer3>
+	</question>
+</chat>
